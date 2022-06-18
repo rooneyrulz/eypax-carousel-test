@@ -1,0 +1,31 @@
+{
+  "name": "eypax-carousel-test",
+  "version": "1.0.0",
+  "description": "simple test app for eypaz",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rooneyrulz/eypax-carousel-test.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rooneyrulz/eypax-carousel-test/issues"
+  },
+  "homepage": "https://github.com/rooneyrulz/eypax-carousel-test#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
