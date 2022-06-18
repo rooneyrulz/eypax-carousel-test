@@ -1,13 +1,11 @@
-import Carousel from './components/Carousel'
-import './App.css';
+import Carousel from "./components/Carousel";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <div className='App'>
       <Carousel slides={5} infinite={true} />
-      <br />
       <Carousel slides={3} infinite={false} />
-      <br />
       <Carousel slides={2} infinite={true} />
     </div>
   );
