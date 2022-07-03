@@ -4,7 +4,9 @@
   "description": "simple test app for eypaz",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "client": "cd ./carousel && npm start",
+    "start": "nodemon server.js",
+    "dev": "concurrently \"npm start\" \"npm run client\""
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,7 @@
     "uuid": "^8.3.2"
   },
   "devDependencies": {
+    "concurrently": "^7.2.2",
     "nodemon": "^2.0.16"
   }
 }
